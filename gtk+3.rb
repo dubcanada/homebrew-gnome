@@ -5,11 +5,6 @@ class Gtkx3 < Formula
   
   url 'http://ftp.gnome.org/pub/gnome/sources/gtk+/3.13/gtk+-3.13.5.tar.xz'
   sha256 '61d74eea74231b1ea4b53084a9d6fc9917ab0e1d71b69d92cbf60a4b4fb385d0'
-  
-  bottle do
-      root_url 'http://dl.tingping.se/homebrew'
-      sha1 "719600dc6e756fc86de376422d942f603827b08e" => :mavericks
-  end
 
   depends_on 'pkg-config' => :build
   depends_on 'jasper' => :optional
