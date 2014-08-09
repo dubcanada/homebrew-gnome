@@ -4,7 +4,7 @@ class Gtkx3 < Formula
   homepage 'http://gtk.org/'
   
   url 'http://ftp.gnome.org/pub/gnome/sources/gtk+/3.13/gtk+-3.13.5.tar.xz'
-  sha256 '61d74eea74231b1ea4b53084a9d6fc9917ab0e1d71b69d92cbf60a4b4fb385d0'
+  sha256 'c8648197d0a79edda0faeab6c17d18f32118dfb1922e747738964a04336e9631'
 
   depends_on 'pkg-config' => :build
   depends_on 'jasper' => :optional
